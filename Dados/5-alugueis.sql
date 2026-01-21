@@ -1,4 +1,4 @@
-/*Dados de Inserção dos alugueis/reservas na tabela 'enderecos'*/
+/*Dados de Inserção dos alugueis/reservas na tabela 'alugueis/reservas'*/
 /*Em uma das aulas, é trocado o nome da tabela de 'alugueis' para 'reservas'*/
 INSERT INTO alugueis VALUES ('1', '1', '8450', '2023-07-15', '2023-07-20', '3240');
 INSERT INTO alugueis VALUES ('2', '2', '9231', '2023-11-16', '2023-11-23', '6762');
@@ -10000,4 +10000,5 @@ INSERT INTO alugueis VALUES ('9997', '9997', '1651', '2022-04-02', '2022-04-09',
 INSERT INTO alugueis VALUES ('9998', '9998', '4553', '2023-09-17', '2023-09-21', '2472');
 INSERT INTO alugueis VALUES ('9999', '9999', '1562', '2022-10-06', '2022-10-10', '1888');
 INSERT INTO alugueis VALUES ('10000', '10000', '8802', '2023-12-20', '2023-12-23', '708');
+
 

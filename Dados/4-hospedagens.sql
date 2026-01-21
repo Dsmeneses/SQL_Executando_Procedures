@@ -1,3 +1,4 @@
+/*Dados de Inserção das Hospedagens na tabela 'hospedagem'*/
 INSERT INTO hospedagens VALUES ('1', 'casa', '1', '1', '0');
 INSERT INTO hospedagens VALUES ('2', 'casa', '2', '2', '1');
 INSERT INTO hospedagens VALUES ('3', 'hotel', '3', '3', '1');
@@ -9998,3 +9999,4 @@ INSERT INTO hospedagens VALUES ('9997', 'hotel', '9997', '9997', '0');
 INSERT INTO hospedagens VALUES ('9998', 'casa', '9998', '9998', '1');
 INSERT INTO hospedagens VALUES ('9999', 'hotel', '9999', '9999', '0');
 INSERT INTO hospedagens VALUES ('10000', 'casa', '10000', '10000', '0');
+

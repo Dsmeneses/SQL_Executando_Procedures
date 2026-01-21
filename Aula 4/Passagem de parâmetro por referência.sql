@@ -4,10 +4,10 @@
 SELECT '2023-01-01' + INTERVAL 5 DAY; 
 
 USE `insight_places`;
-DROP procedure IF EXISTS `insight_places`.`novoAluguel_46`;
+DROP procedure IF EXISTS `insight_places`.`novoAluguel_4_6`;
 DELIMITER $$
 USE `insight_places`$$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `novoAluguel_46`(vAluguel VARCHAR(10), vClienteNome VARCHAR(150),
+CREATE DEFINER=`root`@`localhost` PROCEDURE `novoAluguel_4_6`(vAluguel VARCHAR(10), vClienteNome VARCHAR(150),
 vHospedagem VARCHAR(10), vDataInicio DATE, vDias INT, vPrecoUnitario DECIMAl(10,2))
 BEGIN
 	DECLARE vNumCliente INT;
@@ -49,7 +49,7 @@ END$$
 DELIMITER ;
 
 DELETE FROM reservas WHERE reserva_id = '10008';
-CALL novoAluguel_46('10008', 'Rafael Peixoto', '8635', '2023-04-05', 5, 40);
+CALL novoAluguel_4_6('10008', 'Rafael Peixoto', '8635', '2023-04-05', 5, 40);
 SELECT * FROM reservas WHERE reserva_id = '10008';
 
 /******************************************************************************************************/
